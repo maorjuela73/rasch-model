@@ -79,3 +79,6 @@ example <- data.frame(
 
 ggplot(example, aes(x = Severity, y = WeightedRelativCases)) +
     geom_bar(stat = "identity")
+
+mean(res$infit.person, na.rm = TRUE)
+mean(res$outfit.person, na.rm = TRUE)
